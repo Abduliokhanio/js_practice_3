@@ -6,6 +6,7 @@ class GifsController < ApplicationController
     @gifs = Gif.all
 
     render json: @gifs
+    
   end
 
   # GET /gifs/1
